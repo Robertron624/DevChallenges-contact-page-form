@@ -58,9 +58,14 @@ body {
   --dark-magenta: #b4436d;
 
   min-height: 100vh;
-  background: linear-gradient(135deg, #b4436d 0%, #4036a9 100%) no-repeat;
+  /* background: linear-gradient(135deg, #b4436d 0%, #4036a9 100%) no-repeat; */
   color: var(--white);
   font-weight: 500;
+
+  background-image: url(/assets/background.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 img,
