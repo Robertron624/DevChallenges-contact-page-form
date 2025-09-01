@@ -84,6 +84,11 @@ select {
   font: inherit;
 }
 
+button {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
 p,
 h1,
 h2,
